@@ -1,0 +1,22 @@
+.heading-primary{
+    color: $color-white-1;
+    text-transform: uppercase;
+    backface-visibility: hidden; /*It fix the little shake in the animation. It hides the back part of the element for the user */
+
+    &--main {
+        display: block;
+        font-size: $font-size-big;
+        font-weight: 400;
+        letter-spacing: 3.5rem;
+        animation-name: move-in-left;
+        animation-duration: 1s;
+        animation-timing-function: ease-out;
+        /* animation-delay: 2s; 
+        animation-iteration-count: 3; */
+
+        @include respond(phone) {
+            letter-spacing: 2rem;
+            font-size: 5rem;
+        }
+    }
+}

@@ -1,0 +1,18 @@
+.stack-loop {
+    font-size: $font-size-default;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 2rem;
+    
+    &__img {
+        font-size: $font-size-default;
+        margin-right: 2rem;
+        width: 4rem;
+        height: 4rem;
+    }
+
+    &__name {
+        font-size: $font-size-default;
+    }
+}
