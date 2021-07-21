@@ -9,7 +9,7 @@ const Navigation = () => {
         setIsNavigationOn(!isNavigationOn);
     }
 
-    const navigationItemsUi = navigationItems.map((item, index) => <li key={index} className="navigation__item">
+    const NavigationItemsUi = navigationItems.map((item, index) => <li key={index} className="navigation__item">
         <a href={item.link} onClick={onNavigationClick} className="navigation__link">{item.name}</a></li>);
 
     return (
@@ -24,7 +24,7 @@ const Navigation = () => {
 
             <nav className="navigation__nav">
                 <ul className="navigation__list">
-                    {navigationItemsUi}
+                    {NavigationItemsUi}
                 </ul>
             </nav>
         </div>

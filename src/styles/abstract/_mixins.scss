@@ -13,6 +13,14 @@
     transform: translate(-50%, -50%);
 }
 
+@mixin animation-show-up {
+    opacity: 0;
+    animation-name: show-up;
+    animation-duration: 0.5s;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+}
+
 //media query manager
 /*
 0   - 600px:  Phone  

@@ -1,0 +1,15 @@
+.profile {
+    opacity: 0;
+    animation-delay: 1s;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-out;
+    animation-name: show-up;
+
+    &__img {
+        width: 20rem;
+        height: 20rem;
+        border-radius: 50%;
+        background-image: radial-gradient($color-grey-dark-2, $color-primary-dark);
+    }
+}

@@ -1,4 +1,4 @@
-.email {
+.contact {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -7,11 +7,7 @@
     top: 4rem;
     right: 35rem;
     font-size: $font-size-default;
-    opacity: 0;
-    animation-name: show-up;
-    animation-duration: 0.5s;
-    animation-delay: 1s;
-    animation-fill-mode: forwards;
+    @include animation-show-up;
 
     h1 {
         cursor: default;
@@ -29,5 +25,25 @@
         top: 3rem;
         right: 0.5rem;
         font-size: $font-size-default-phone;
+    }
+
+    &__list {
+        list-style: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+
+        li {
+            &:not(:last-child) {
+                margin-right: 2rem;
+            }
+        }
+    }
+
+    &__img {
+        width: 3rem;
+        height: 3rem;
+        fill: $color-white-1;
     }
 }

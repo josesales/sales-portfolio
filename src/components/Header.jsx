@@ -1,12 +1,12 @@
 import React from 'react';
-import Email from './Email';
+import Contact from './Contact';
 import Navigation from './Navigation';
 
 const Header = () => (
 
     <header className="header">
         <Navigation />
-        <Email />
+        <Contact />
     </header>
 )
 
