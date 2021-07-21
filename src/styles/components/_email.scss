@@ -7,6 +7,15 @@
     top: 4rem;
     right: 35rem;
     font-size: $font-size-default;
+    opacity: 0;
+    animation-name: show-up;
+    animation-duration: 0.5s;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+
+    h1 {
+        cursor: default;
+    }
 
     @include respond(tab-land) {
         top: 2rem;

@@ -47,6 +47,9 @@
         //@if: an if statement like a normal programming language
         //@content: allows to pass a block of code into a mixin
 
+        @if $breakpoint == mini-phone {
+            @media only screen and (max-width:28.5em) { @content }; //300px
+        }
         @if $breakpoint == phone {
             @media only screen and (max-width:37.5em) { @content }; //600px
         }

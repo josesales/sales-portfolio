@@ -8,26 +8,38 @@ import HappyIcon from '../assets/happy.svg';
 export const intro = [
     {
         name: 'Javascript',
-        icon: JavascriptIcon
+        icon: JavascriptIcon,
+        nameAnimation: 'stack-loop__name stack-loop__name--animation1',
+        iconAnimation: 'stack-loop__img stack-loop__img--animation1',
     },
     {
         name: 'React',
-        icon: ReactIcon
+        icon: ReactIcon,
+        nameAnimation: 'stack-loop__name stack-loop__name--animation2',
+        iconAnimation: 'stack-loop__img stack-loop__img--animation2',
     },
     {
         name: 'Node',
-        icon: NodeIcon
+        icon: NodeIcon,
+        nameAnimation: 'stack-loop__name stack-loop__name--animation1',
+        iconAnimation: 'stack-loop__img stack-loop__img--animation1',
     },
     {
         name: 'MongoDB',
-        icon: MongoDbIcon
+        icon: MongoDbIcon,
+        nameAnimation: 'stack-loop__name stack-loop__name--animation2',
+        iconAnimation: 'stack-loop__img stack-loop__img--animation2',
     },
     {
         name: 'Typescript',
-        icon: TypescriptIcon
+        icon: TypescriptIcon,
+        nameAnimation: 'stack-loop__name stack-loop__name--animation1',
+        iconAnimation: 'stack-loop__img stack-loop__img--animation1',
     },
     {
         name: 'and More',
-        icon: HappyIcon
+        icon: HappyIcon,
+        nameAnimation: 'stack-loop__name stack-loop__name--animation2',
+        iconAnimation: 'stack-loop__img stack-loop__img--animation2',
     }
 ]

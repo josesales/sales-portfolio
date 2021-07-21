@@ -5,6 +5,12 @@
     }
     
     &__button {
+        opacity: 0;
+        animation-name: show-up;
+        animation-duration: 0.5s;
+        animation-delay: 1s;
+        animation-fill-mode: forwards;
+
         background-color: $color-white-1;
         height: 7rem;
         width: 7rem;
@@ -86,6 +92,12 @@
     }
 
     &__background {
+        opacity: 0;
+        animation-name: show-up;
+        animation-duration: 1s;
+        animation-delay: 1s;
+        animation-fill-mode: forwards;
+
         height: 6rem;
         width: 6rem;
         border-radius: 50%;

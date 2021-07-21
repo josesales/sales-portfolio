@@ -22,8 +22,8 @@ const StackLoop = ({ array }) => {
 
     return (
         <div className="stack-loop">
-            <img className="stack-loop__img" src={intro[index].icon} alt="Stack" />
-            <span className="stack-loop__name">{intro[index].name}</span>
+            <img className={intro[index].iconAnimation} src={intro[index].icon} alt="Stack" />
+            <span className={intro[index].nameAnimation}>{intro[index].name}</span>
         </div>
     );
 }

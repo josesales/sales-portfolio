@@ -5,7 +5,7 @@
     }
     
     80% {
-        transform: translateX(1rem);
+        // transform: translateX(1rem);
     }
     
     100% {
@@ -21,7 +21,7 @@
     }
     
     80% {
-        transform: translateX(-1rem);
+        // transform: translateX(-1rem);
     }
     
     100% {
@@ -37,11 +37,45 @@
     }
     
     80% {
-        transform: translateX(-1rem);
+        // transform: translateX(-1rem);
     }
     
     100% {
         opacity: 1;
         transform: translate(0);
+    }
+}
+
+@keyframes move-in-top {
+    0% {
+        opacity: 0;
+        transform: translateY(-3rem);
+    }
+    
+    80% {
+        // transform: translateX(1rem);
+    }
+    
+    100% {
+        opacity: 1;
+        transform: translate(0);
+    }
+}
+
+@keyframes show-up {
+    0% {
+        opacity: 0;
+    }
+    
+    50% {
+        opacity: 0.5;
+    }
+
+    80% {
+        opacity: 0.8;
+    }
+    
+    100% {
+        opacity: 1;
     }
 }

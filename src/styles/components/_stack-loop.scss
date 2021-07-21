@@ -1,18 +1,54 @@
 .stack-loop {
-    font-size: $font-size-default;
+    font-size: 2rem;
     display: flex;
     justify-content: space-around;
     align-items: center;
     padding: 2rem;
+    cursor: default;
     
     &__img {
-        font-size: $font-size-default;
+        // font-size: $font-size-default;
         margin-right: 2rem;
-        width: 4rem;
-        height: 4rem;
+        width: 5rem;
+        height: 5rem;
+        opacity: 0;
+
+        &--animation1,
+        &--animation2 {
+            animation-delay: 1s;
+            animation-duration: 1s;
+            animation-fill-mode: forwards;
+            animation-timing-function: ease-out;
+        }
+
+        &--animation1 {
+            animation-name: move-in-left;
+        }
+
+        &--animation2 {
+            animation-name: move-in-right;
+        }
+        
     }
 
     &__name {
-        font-size: $font-size-default;
+        // font-size: $font-size-default;
+        opacity: 0;
+
+        &--animation1,
+        &--animation2 {
+            animation-delay: 2s;
+            animation-duration: 1s;
+            animation-fill-mode: forwards;
+            animation-timing-function: ease-out;
+        }
+
+        &--animation1 {
+            animation-name: move-in-bottom;
+        }
+
+        &--animation2 {
+            animation-name: move-in-top;
+        }
     }
 }

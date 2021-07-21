@@ -7,16 +7,28 @@
         display: block;
         font-size: $font-size-big;
         font-weight: 400;
-        letter-spacing: 3.5rem;
-        animation-name: move-in-left;
+        letter-spacing: 3rem;
+        animation-name: move-in-top;
         animation-duration: 1s;
         animation-timing-function: ease-out;
         /* animation-delay: 2s; 
         animation-iteration-count: 3; */
 
-        @include respond(phone) {
+        @include respond(tab-land) {
             letter-spacing: 2rem;
-            font-size: 5rem;
+            font-size: $font-size-big-tab-land;
+        }
+        @include respond(tab-port) {
+            letter-spacing: 1rem;
+            font-size: $font-size-big-tab-land;
+        }
+        @include respond(phone) {
+            letter-spacing: 1rem;
+            font-size: $font-size-big-phone;
+        }
+        @include respond(mini-phone) {
+            letter-spacing: 0.5;
+            font-size: $font-size-big-mini-phone;
         }
     }
 }
