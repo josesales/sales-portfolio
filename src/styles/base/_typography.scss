@@ -1,34 +1,34 @@
-.heading-primary{
+.heading-primary,
+.heading-primary-animation{
     color: $color-white-1;
     text-transform: uppercase;
     backface-visibility: hidden; /*It fix the little shake in the animation. It hides the back part of the element for the user */
 
-    &--main {
-        display: block;
-        font-size: $font-size-big;
-        font-weight: 400;
-        letter-spacing: 3rem;
-        animation-name: move-in-top;
-        animation-duration: 1s;
-        animation-timing-function: ease-out;
-        /* animation-delay: 2s; 
-        animation-iteration-count: 3; */
+    display: block;
+    font-size: $font-size-big;
+    font-weight: 400;
+    letter-spacing: 3rem;
 
-        @include respond(tab-land) {
-            letter-spacing: 2rem;
-            font-size: $font-size-big-tab-land;
-        }
-        @include respond(tab-port) {
-            letter-spacing: 1rem;
-            font-size: $font-size-big-tab-land;
-        }
-        @include respond(phone) {
-            letter-spacing: 1rem;
-            font-size: $font-size-big-phone;
-        }
-        @include respond(mini-phone) {
-            letter-spacing: 0.5;
-            font-size: $font-size-big-mini-phone;
-        }
+    @include respond(tab-land) {
+        letter-spacing: 2rem;
+        font-size: $font-size-big-tab-land;
     }
+    @include respond(tab-port) {
+        letter-spacing: 1rem;
+        font-size: $font-size-big-tab-land;
+    }
+    @include respond(phone) {
+        letter-spacing: 1rem;
+        font-size: $font-size-big-phone;
+    }
+    @include respond(mini-phone) {
+        letter-spacing: 0.5;
+        font-size: $font-size-big-mini-phone;
+    }
+}
+
+.heading-primary-animation {
+    animation-name: move-in-top;
+    animation-duration: 1s;
+    animation-timing-function: ease-out;
 }

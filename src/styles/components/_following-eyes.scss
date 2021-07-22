@@ -1,0 +1,59 @@
+.following-eyes {
+    width: 20rem;
+    height: 20rem;
+    position: relative;
+    background-color: #dfdf27;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    &::before {
+        content: '';
+        position: absolute;
+        top: 12rem;
+        width: 12rem;
+        height: 5rem;
+        background-color: #d67922;
+        border-bottom-left-radius: 7rem;
+        border-bottom-right-radius: 7rem;
+        transition: .5s;
+    }
+
+    &:hover::before {
+        top: 12rem;
+        width: 15rem;
+        height: 2rem;
+        background-color: #d67922;
+        border-radius: 1rem;
+    }
+
+    .eyes {
+        display: flex;
+        position: relative;
+        top: -4rem;
+
+        .eye {
+            width: 7rem;
+            height: 7rem;
+            background: #fff;
+            display: inline-block;
+            margin: 0 .5rem;
+            border-radius: 50%;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .ball{
+            width: 3rem;
+            height: 3rem;
+            background: #000;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+            border-radius: 50%;
+            border: 7px solid $color-primary-dark;
+          }
+    }
+}

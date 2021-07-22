@@ -1,0 +1,14 @@
+.latest-works {
+    margin-top: 8rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    // scroll-margin-top: 20vh;
+
+    .description {
+        margin-top: 5rem;
+        margin-bottom: 5rem;
+        font-size: $font-size-default;
+    }
+}

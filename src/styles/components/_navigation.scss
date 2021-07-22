@@ -16,7 +16,6 @@
         box-shadow: 0 1rem 3rem rgba($color_black-1, .1);
         text-align: center; //centers the 3 lines icon
         cursor: pointer;
-        @include animation-show-up;
 
         @include respond(tab-land) {
             top: 3.5rem;

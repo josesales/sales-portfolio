@@ -5,4 +5,8 @@
     // justify-content: center;
     height: 100vh;
   }
+
+  .delay-on-show {
+    @include animation-show-up;
+  }
   
