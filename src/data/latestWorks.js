@@ -1,26 +1,30 @@
 import FoodHelperImg from '../assets/food-helper.jpg';
 import OutdoorsKingImg from '../assets/outdoors-king.jpg';
+import FoodHelperLogo from '../assets/food-helper-logo.png';
+import OutdoorsKingLogo from '../assets/outdoors-king-logo.png';
 
 export const applicationItems = [
     {
         name: 'Food Helper',
         link: '#latest-works',
+        logo: FoodHelperLogo,
         img: FoodHelperImg,
         description: [
             'Are you hungry at home and have no idea what to prepare but have some ingredients?',
-            'With Food Helper you can just type your ingredients and it will show you nice and creative recipes you can prepare for you and your friends!'
+            'Now you can just type your ingredients and it will show you nice and creative recipes you can prepare for you.'
         ],
-        stack: ['Javascript', 'React', 'SASS', 'Node', 'Express', 'Mongoose', 'MongoDB'],
+        stack: ['Javascript', 'React', 'Redux', 'SASS', 'Node', 'Express', 'Mongoose', 'MongoDB'],
         features: ['User Authentication', 'Search Recipe by Multiple Ingredients', 'Search Recipes by Filters',
-            'Pagination with Caching of Visited Pages', 'Image Upload', 'Review and Score System', 'Add Recipes to Favorites'],
+            'Pagination with Caching Mechanism', 'Image Upload', 'Review and Score System', 'Add Recipes to Favorites'],
     },
     {
         name: 'Outdoors King',
         link: '#latest-works',
         img: OutdoorsKingImg,
-        description: ['ECommerce which you can find Outdoors items for brave and adventurous people'],
-        stack: ['Typescript', 'React', 'Tailwind CSS', 'GraphQL', 'Node', 'Apollo Server', 'Prisma', 'PostgreSQL'],
-        features: ['User Authentication', 'User Authorization', 'Image Upload', 'Products Categories', 'Cart',
-            'Products Purchase'],
+        logo: OutdoorsKingLogo,
+        description: ['ECommerce which you can find Outdoor items for brave and adventurous people.'],
+        stack: ['Typescript', 'React', 'Redux', 'Tailwind CSS', 'GraphQL', 'Node', 'Apollo Server', 'Prisma', 'PostgreSQL'],
+        features: ['User Authentication', 'User Authorization', 'Password Reset with Verification Code',
+            'Image Upload', 'Cart', 'Products Purchase'],
     },
 ]

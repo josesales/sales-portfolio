@@ -98,8 +98,8 @@
         position: fixed;
         top: 6.5rem;
         left: 30.5rem;
-        background-image: radial-gradient($color-grey-dark-2, $color-primary-dark);
         z-index: 100;
+        background-image: radial-gradient($color-grey-dark-2, $color-primary-dark);
 
         @include respond(tab-land) {
             top: 4rem;

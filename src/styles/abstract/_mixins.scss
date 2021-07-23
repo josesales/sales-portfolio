@@ -6,6 +6,15 @@
     animation-fill-mode: forwards;
 }
 
+@mixin gradient-primary {
+    background-image: linear-gradient(to left top, $color-grey-dark-2, $color-primary-dark);
+}
+
+@mixin gradient-secondary {
+    background-image: linear-gradient(to right bottom, $color-grey-dark-2, $color-secondary-dark);
+}
+
+
 //media query manager
 /*
 0   - 600px:  Phone  

@@ -10,7 +10,7 @@ const Intro = () => {
 
             <StackLoop array={intro} />
 
-            <h1 className="intro__title heading-primary-animation">
+            <h1 className="section-title heading-primary-animation">
                 <span>Full Stack</span>
                 <span> Developer</span>
             </h1>
