@@ -14,7 +14,7 @@ const Navigation = () => {
 
     return (
         <div className="navigation">
-            <input type="checkbox" id="nav-toggle" checked={isNavigationOn} className="navigation__checkbox" />
+            <input type="checkbox" id="nav-toggle" checked={isNavigationOn} readOnly={true} className="navigation__checkbox" />
 
             <label htmlFor="nav-toggle" onClick={onNavigationClick} className="navigation__button">
                 <span className="navigation__icon"></span>
