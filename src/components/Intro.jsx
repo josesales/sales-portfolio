@@ -15,7 +15,7 @@ const Intro = () => {
                 <span> Developer</span>
             </h1>
 
-            <div className="intro__description">
+            <div className="intro__description section-margin-2 secondary-background">
                 <p>Hi, my name is Sales. I am a passionate developer with a bachelor degree in Computer Science and an overall experience of over a decade.</p>
                 <p>As a Full Stack Developer, I am used to work as a Frontend, Backend developer as well and with relational and non-relational DBs.</p>
             </div>

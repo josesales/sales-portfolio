@@ -2,16 +2,17 @@ export const navigationItems = [
     {
         name: 'Intro',
         link: '#intro'
-    }, {
-        name: 'Latest Works',
-        link: '#latest-works'
     },
     {
         name: 'My Stack',
         link: '#stack'
     },
     {
-        name: 'Previous Workplaces',
+        name: 'Latest Works',
+        link: '#latest-works'
+    },
+    {
+        name: `Where I've Worked`,
         link: '#companies'
     },
     {

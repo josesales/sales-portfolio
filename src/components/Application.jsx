@@ -10,7 +10,7 @@ const Application = ({ application }) => {
 
     return (
 
-        <div className="application-container">
+        <div className="application-container section-margin-3">
 
             <div className="application-container__img">
                 <img src={application.img} alt="Application" className="img" />
@@ -44,8 +44,10 @@ const Application = ({ application }) => {
                         </ul>
                     </div>
                 </div>
-
-                <a href={application.link} className="link-button application__link">Try it out</a>
+                <div className="application__button-container">
+                    <a href={application.link} target="_blank" className="link-button" rel="noreferrer">Try it out</a>
+                    <a href={application.gitHub} target="_blank" className="link-button" rel="noreferrer">GitHub</a>
+                </div>
             </div>
         </div>
     );

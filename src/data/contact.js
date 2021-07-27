@@ -6,22 +6,23 @@ import SkypeIcon from '../assets/skype.svg';
 export const contact = [
     {
         name: 'Email',
-        link: 'link',
+        link: 'mailto: salesbass@gmail.com',
         icon: EmailIcon,
     },
     {
         name: 'GitHub',
-        link: 'https://github.com/',
+        link: 'https://github.com/josesales',
         icon: GitHubIcon,
     },
     {
         name: 'LinkedIn',
-        link: 'link',
+        link: 'https://www.linkedin.com/in/jos%C3%A9-sales-a58809135/',
         icon: LinkedinIcon,
     },
     {
         name: 'Skype',
-        link: 'link',
+        //href="skype:<username>?<action>"
+        link: 'skype:salesbass?chat',
         icon: SkypeIcon,
     },
 ]

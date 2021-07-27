@@ -1,3 +1,5 @@
+import Companies from './components/Companies';
+import Education from './components/Education';
 import Header from './components/Header';
 import Intro from './components/Intro';
 import LatestWorks from './components/LatestWorks';
@@ -13,8 +15,10 @@ function App() {
       <Intro />
 
       <div className="delay-on-show">
-        <LatestWorks />
         <Stack />
+        <LatestWorks />
+        <Companies />
+        <Education />
       </div>
     </div>
   );

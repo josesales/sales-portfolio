@@ -23,7 +23,7 @@ const FollowingEyes = () => {
     }, []);
 
     return (
-        <div className="following-eyes">
+        <div className="following-eyes section-margin-3">
 
             <div ref={eyesRef} className="eyes">
                 <div className="eye">

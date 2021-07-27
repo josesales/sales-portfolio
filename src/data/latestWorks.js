@@ -7,6 +7,7 @@ export const applicationItems = [
     {
         name: 'Food Helper',
         link: '#latest-works',
+        gitHub: 'https://github.com/josesales/food-helper',
         logo: FoodHelperLogo,
         img: FoodHelperImg,
         description: [
@@ -20,6 +21,7 @@ export const applicationItems = [
     {
         name: 'Outdoors King',
         link: '#latest-works',
+        gitHub: 'https://github.com/josesales/outdoors-king',
         img: OutdoorsKingImg,
         logo: OutdoorsKingLogo,
         description: ['ECommerce which you can find Outdoor items for brave and adventurous people.'],

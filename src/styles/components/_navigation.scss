@@ -9,24 +9,23 @@
         height: 7rem;
         width: 7rem;
         position: fixed;
-        top: 6rem;
+        top: 2rem;
         left: 30rem;
         border-radius: 50%;
         z-index: 200;
         box-shadow: 0 1rem 3rem rgba($color_black-1, .1);
         text-align: center; //centers the 3 lines icon
         cursor: pointer;
-
+        
         @include respond(tab-land) {
-            top: 3.5rem;
             left: 15rem;
         }
         @include respond(tab-port) {
-            top: 3.5rem;
+            top: 1rem;
             left: 5rem;
         }
         @include respond(phone) {
-            top: 3rem;
+            top: 1rem;
             left: 0.5rem;
         }
     }
@@ -96,21 +95,21 @@
         width: 6rem;
         border-radius: 50%;
         position: fixed;
-        top: 6.5rem;
+        top: 2.5rem;
         left: 30.5rem;
         z-index: 100;
         background-image: radial-gradient($color-grey-dark-2, $color-primary-dark);
 
         @include respond(tab-land) {
-            top: 4rem;
+            // top: 1.5rem;
             left: 16rem;
         }
         @include respond(tab-port) {
-            top: 4rem;
+            top: 1.5rem;
             left: 5rem;
         }
         @include respond(phone) {
-            top: 3.5rem;
+            top: 1.5rem;
             left: 0.5rem;
         }
 
@@ -123,11 +122,10 @@
         top: 0;
         left: 0;
         z-index: 150;
-
         //hides the links
         opacity: 0;
         width: 0;
-
+        pointer-events: none;
         transition: all .8s cubic-bezier(0.68, -0.55, 0.265, 1.55);
     }
 
@@ -177,5 +175,6 @@
     &__checkbox:checked ~ &__nav {
        opacity: 1;
        width: 100%;
+       pointer-events: initial;
     }
 }

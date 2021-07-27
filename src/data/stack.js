@@ -42,4 +42,10 @@ export const intro = [
         nameAnimation: 'stack-loop__name stack-loop__name--animation2',
         iconAnimation: 'stack-loop__img stack-loop__img--animation2',
     }
-]
+];
+
+export const frontend = ['Javascript', 'Typescript', 'React', 'Redux', 'HTML', 'CSS', 'SASS', 'Tailwind CSS'];
+
+export const backend = ['Node.JS', 'Express', 'Apollo Server', 'Mongoose', 'Prisma', 'MongoDB', 'PostgreSQL', 'Java'];
+
+export const others = ['Design Patterns', 'Object Orientation Programming', 'Functional Programming', 'SQL', 'GraphQL', 'Rest'];

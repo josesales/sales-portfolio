@@ -4,15 +4,15 @@
     left: 0;
     z-index: 90;
     width: 100%;
-    height: 20vh;
+    height: 14vh;
 
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: $color-black-1;
+    background-color: $color-black-3;
     @include animation-show-up;
     
-    @include respond(tab-land) {
-        height: 15vh;
+    @include respond(tab-port) {
+        height: 9vh;
     }
 }

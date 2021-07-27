@@ -3,17 +3,28 @@
     flex-direction: column;
     align-items: center;
     width: 100%;
-    margin-top: 15rem;
-    scroll-margin-top: 20rem;
-    
-    &__description {
-        opacity: 0;
-        margin-top: 5rem;
-        margin-bottom: 5rem;
-        font-size: $font-size-default;
-        animation-name: move-in-top;
-        animation-duration: 1s;
-        animation-delay: .5s;
-        animation-fill-mode: forwards;
+    font-size: $font-size-default;
+    scroll-margin-top: 12rem;
+
+    .stack-item-container{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: unset;
+        
+        @include respond(tab-port) {
+            flex-wrap: wrap;
+        }
     }
+    // &__description {
+    //     opacity: 0;
+    //     margin-top: 5rem;
+    //     margin-bottom: 5rem;
+    //     font-size: $font-size-default;
+    //     animation-name: move-in-top;
+    //     animation-duration: 1s;
+    //     animation-delay: .5s;
+    //     animation-fill-mode: forwards;
+    // }
 }
