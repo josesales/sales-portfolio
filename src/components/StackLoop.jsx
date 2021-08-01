@@ -16,7 +16,7 @@ const StackLoop = ({ array }) => {
             }
         }, 5000);
 
-        return () => clearTimeout(intervalId);
+        return () => clearInterval(intervalId);
     }, [array.length, index]);
 
 
