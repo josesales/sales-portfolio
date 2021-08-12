@@ -26,7 +26,6 @@ html {
 }
 
 body {
-  padding: 3rem;
   box-sizing: border-box;
   min-height: 100vh;
 
@@ -34,11 +33,6 @@ body {
   line-height: 1.7;
   color: $color-white-1;
   background-color: $color-black-1;
-
-  @include respond(tab-port) {
-    padding: 0;
-  }
-
 }
 
 ::selection {

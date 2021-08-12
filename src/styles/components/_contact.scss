@@ -22,8 +22,8 @@
     }
     @include respond(phone) {
         font-size: $font-size-small;
-        top: 0;
-        right: 0.5rem;
+        top: .5rem;
+        right: 0.8rem;
         font-size: $font-size-default-phone;
     }
 

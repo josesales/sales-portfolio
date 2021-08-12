@@ -40,6 +40,12 @@
         height: 40rem;
         padding: .5rem;
     }
+    @include respond(phone) {
+        font-size: 1rem;
+        width: 35rem;
+        height: 38rem;
+        padding: .5rem;
+    }
 }
 
 .application {

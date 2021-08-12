@@ -45,7 +45,7 @@ const Application = ({ application }) => {
                     </div>
                 </div>
                 <div className="application__button-container">
-                    <a href={application.link} target="_blank" className="link-button" rel="noreferrer">Try it out</a>
+                    <a href={application.link} target="_blank" className="link-button" rel="noreferrer">Try it</a>
                     <a href={application.gitHub} target="_blank" className="link-button" rel="noreferrer">GitHub</a>
                 </div>
             </div>
