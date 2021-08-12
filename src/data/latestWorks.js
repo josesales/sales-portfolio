@@ -6,7 +6,7 @@ import OutdoorsKingLogo from '../assets/outdoors-king-logo.png';
 export const applicationItems = [
     {
         name: 'Food Helper',
-        link: '#latest-works',
+        link: 'https://foodhelper.net',
         gitHub: 'https://github.com/josesales/food-helper',
         logo: FoodHelperLogo,
         img: FoodHelperImg,
@@ -20,7 +20,7 @@ export const applicationItems = [
     },
     {
         name: 'Outdoors King',
-        link: '#latest-works',
+        link: 'https://outdoorsking.net',
         gitHub: 'https://github.com/josesales/outdoors-king',
         img: OutdoorsKingImg,
         logo: OutdoorsKingLogo,
