@@ -9,16 +9,12 @@
         display: flex;
         flex-direction: column;
         align-items: center;
-
-        &__intro {
-            font-size: $font-size-default;
-        }
-        
-        &__dev {
-            font-size: $font-size-default;
-        }
+        font-size: $font-size-default;
     }
 
+    &__dev-fun {
+        font-size: $font-size-default;
+    }
 
     .applications-container {
         display: flex;

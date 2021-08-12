@@ -16,14 +16,10 @@ const LatestWorks = () => {
             </h1>
 
             <div className="description-container section-margin-2 secondary-background">
-
-                <div className="description-container__intro">
                     <p>Enough of talking! Now you can try some of the latest web applications that I have built by myself from scratch.</p>
-                </div>
-                <div className="description-container__dev">
-                    <p>Web Development is Fun!</p>
-                </div>
             </div>
+
+            <p className="section-margin-3 latest-works__dev-fun secondary-background">Web Development is Fun!</p>
 
             <FollowingEyes />
 
