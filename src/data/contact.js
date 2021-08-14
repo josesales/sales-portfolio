@@ -6,7 +6,7 @@ import SkypeIcon from '../assets/skype.svg';
 export const contact = [
     {
         name: 'Email',
-        link: 'mailto: salesbass@gmail.com',
+        link: 'mailto: contact@jose-sales.net',
         icon: EmailIcon,
     },
     {
