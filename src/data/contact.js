@@ -22,7 +22,7 @@ export const contact = [
     {
         name: 'Skype',
         //href="skype:<username>?<action>"
-        link: 'skype:salesbass?chat',
+        link: 'https://join.skype.com/invite/KuwXBTfTMsRj',
         icon: SkypeIcon,
     },
 ]
