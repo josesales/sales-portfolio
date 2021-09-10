@@ -18,7 +18,7 @@ const Companies = () => {
             </h1>
 
             <div className="section-margin-2 secondary-background">
-                <p>Some of the companies that I'm proud to have collaborated as a Software Developer.</p>
+                <p>Some of the companies that I'm proud to have collaborated with as a Software Developer.</p>
             </div>
 
             <ul className="companies__list section-margin-2">

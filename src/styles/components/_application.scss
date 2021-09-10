@@ -1,5 +1,6 @@
 .application-container {
-    margin-right: 2rem;
+    margin-right: 1.5rem;
+    margin-left: 1.5rem;
     width: 50rem;
     height: 47rem;
     font-size: 1.3rem;
@@ -76,6 +77,7 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        margin-top: .3rem;
 
         li {
             &:not(:last-child) {
