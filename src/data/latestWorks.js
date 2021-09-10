@@ -31,7 +31,7 @@ export const applicationItems = [
         description: ['ECommerce where you can find Outdoor items for brave and adventurous people.'],
         stack: ['Typescript', 'React', 'Redux', 'Tailwind CSS', 'GraphQL', 'Node', 'Apollo Server', 'Prisma', 'PostgreSQL'],
         features: ['User Authentication', 'User Authorization', 'Password Reset with Verification Code',
-            'Image Upload', 'Cart', 'Products Purchase'],
+            'Image Upload', 'Cart', 'Stripe Integration'],
     },
     {
         name: 'Easy Chat',

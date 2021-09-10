@@ -29,7 +29,7 @@ const Application = ({ application }) => {
                 <div className="tech-container">
 
                     <div className="tech-container__stack">
-                        <h3 className="tech__name">Stack that I've used</h3>
+                        <h3 className="tech__name">Stack</h3>
 
                         <ul className="tech-container__list">
                             {StackUi}
@@ -37,7 +37,7 @@ const Application = ({ application }) => {
                     </div>
 
                     <div className="tech-container__features">
-                        <h3 className="tech__name">Some interesting features</h3>
+                        <h3 className="tech__name">Some Interesting Features</h3>
 
                         <ul className="tech-container__list">
                             {FeaturesUi}
