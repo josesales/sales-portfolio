@@ -18,11 +18,6 @@
     flex-direction: unset;
     align-items: unset;
 
-    // @supports (-webkit-text-stroke: .6px $color-white-1) {
-    //     color: $color-black-1;
-    //     -webkit-text-stroke: .6px $color-white-1;
-    // }
-
     @include respond(mini-phone) {
         display: flex;
         flex-direction: column;
