@@ -22,7 +22,7 @@
         justify-content: center;
         align-items: center;
         
-        @include respond(mini-phone) {
+        @include respond(phone) {
             flex-direction: column;
         }
     }
@@ -32,7 +32,7 @@
             margin-bottom: 0;
             margin-right: 2rem;
             
-            @include respond(mini-phone) {
+            @include respond(phone) {
                 width: 12rem;
                 margin-bottom: .5rem;
                 margin-right: 0;
@@ -45,7 +45,7 @@
         flex-direction: unset;
         align-items: unset;
 
-        @include respond(mini-phone) {
+        @include respond(phone) {
             font-size: $font-size-default;
             display: flex;
             flex-direction: column;
