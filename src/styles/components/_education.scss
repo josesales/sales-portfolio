@@ -40,9 +40,16 @@
     }
     
     &__name {
-            
-            @include respond(mini-phone) {
-                font-size: $font-size-default;
-            }
+        cursor: default;
+        display: inline-block;
+        flex-direction: unset;
+        align-items: unset;
+
+        @include respond(mini-phone) {
+            font-size: $font-size-default;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
     }
 }

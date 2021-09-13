@@ -3,10 +3,17 @@ import { educationItems } from '../data/education';
 
 const Education = () => {
 
-    const EducationItemsUi = educationItems.map((item, index) =>
+    const EducationItemsUi = educationItems.map((item, index) => 
+
         <li key={index} className="education__item">
-            <img src={item.img} alt={item.name} className="education__img" />
-            <h3 className="education__name">{item.name}</h3>
+
+            <img src={item.img} alt={"Education"} className="education__img" />
+
+            <h3 className="education__name">
+                {
+                    item.names.map((name, index) => <span key={index}>{name}</span>)
+                }
+            </h3>
         </li>);
 
     return (
