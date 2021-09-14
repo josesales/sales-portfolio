@@ -40,19 +40,6 @@ export const applicationItems = [
             'Image Upload', 'Cart', 'Stripe Integration'],
     },
     {
-        name: 'Easy Chat',
-        link: 'https://easychat.chat/',
-        gitHub: 'https://github.com/josesales/easy-chat',
-        img: EasyChatImg,
-        logo: EasyChatLogo,
-
-        description: ['Chat Application that allows you to chat with people in a room of your choice.'],
-
-        stack: ['Javascript', 'React', 'Redux', 'Styled Components', 'Node', 'Socket.io'],
-
-        features: ['Real Time, Bi-Direction Communication', 'Chat Room', 'Light and Dark Theme'],
-    },
-    {
         name: 'Awesome Movies',
         link: 'https://awesome-movies.co',
         gitHub: 'https://github.com/josesales/awesome-movies',
@@ -64,5 +51,18 @@ export const applicationItems = [
         stack: ['Javascript', 'React', 'Context API', 'SASS'],
         
         features: ['Integration with Third Party API', 'Movies Search', 'Watch List', 'Watched List', 'Trailers'],
+    },
+    {
+        name: 'Easy Chat',
+        link: 'https://easychat.chat/',
+        gitHub: 'https://github.com/josesales/easy-chat',
+        img: EasyChatImg,
+        logo: EasyChatLogo,
+
+        description: ['Chat Application that allows you to chat with people in a room of your choice.'],
+
+        stack: ['Javascript', 'React', 'Redux', 'Styled Components', 'Node', 'Socket.io'],
+
+        features: ['Real Time, Bi-Direction Communication', 'Chat Room', 'Light and Dark Theme'],
     },
 ]
