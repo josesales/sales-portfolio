@@ -16,7 +16,8 @@ const LatestWorks = () => {
             </h1>
 
             <div className="description-container section-margin-2 secondary-background">
-                    <p>Enough of talking! Now you can try some of the latest web applications that I have built by myself from scratch.</p>
+                    <p>Enough of talking! Now you can try some of the web applications that I have built by myself from scratch.</p>
+                    <p>These applications contain key features which modern companies implement on their own applications.</p>
             </div>
 
             <p className="section-margin-3 latest-works__dev-fun secondary-background">Web Development is Fun!</p>

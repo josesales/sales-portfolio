@@ -22,7 +22,7 @@ export const applicationItems = [
 
         stack: ['Javascript', 'React', 'Redux', 'SASS', 'Node', 'Express', 'Mongoose', 'MongoDB'],
 
-        features: ['User Authentication', 'Search Recipe by Multiple Ingredients', 'Search Recipes by Filters',
+        features: ['User Authentication', 'Search Recipes by Multiple Ingredients', 'Search Recipes by Filters',
             'Pagination with Caching Mechanism', 'Image Upload', 'Review and Score System', 'Add Recipes to Favorites'],
     },
     {
@@ -32,7 +32,7 @@ export const applicationItems = [
         img: OutdoorsKingImg,
         logo: OutdoorsKingLogo,
 
-        description: ['ECommerce where you can find Outdoor items for brave and adventurous people.'],
+        description: ['ICommerce where you can find Outdoor items for brave and adventurous people.'],
 
         stack: ['Typescript', 'React', 'Redux', 'Tailwind CSS', 'GraphQL', 'Node', 'Apollo Server', 'Prisma', 'PostgreSQL'],
 
