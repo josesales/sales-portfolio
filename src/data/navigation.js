@@ -8,8 +8,8 @@ export const navigationItems = [
         link: '#stack'
     },
     {
-        name: 'Latest Works',
-        link: '#latest-works'
+        name: 'Personal Projects',
+        link: '#personal-projects'
     },
     {
         name: `Where I've Worked`,

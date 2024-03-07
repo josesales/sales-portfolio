@@ -17,7 +17,7 @@ const Intro = () => {
 
             <div className="intro__description section-margin-2 secondary-background">
                 <p>Hi, my name is Sales. I am a passionate developer with a bachelor degree in Computer Science and an overall experience of 15 years.</p>
-                <p>I've worked as a Frontend Developer and as a Backend Developer as well. I have also worked with relational and non-relational DBs.</p>
+                <p>I've had the privilege of working, as a Full Stack Developer, for many companies and clients from United States, Europe and South America.</p>
             </div>
 
             <Profile />

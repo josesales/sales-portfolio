@@ -2,7 +2,7 @@ import Companies from './components/Companies';
 import Education from './components/Education';
 import Header from './components/Header';
 import Intro from './components/Intro';
-import LatestWorks from './components/LatestWorks';
+import PersonalProjects from './components/PersonalProjects';
 import Stack from './components/Stack';
 import './styles/main.scss'
 
@@ -16,7 +16,7 @@ function App() {
 
       <div className="delay-on-show">
         <Stack />
-        <LatestWorks />
+        <PersonalProjects />
         <Companies />
         <Education />
       </div>
