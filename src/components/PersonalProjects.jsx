@@ -1,5 +1,5 @@
 import React from 'react';
-import { applicationItems } from '../data/latestWorks';
+import { applicationItems } from '../data/personalProjects';
 import Application from './Application';
 import FollowingEyes from './FollowingEyes';
 
