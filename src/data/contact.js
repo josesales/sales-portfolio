@@ -16,7 +16,7 @@ export const contact = [
     },
     {
         name: 'LinkedIn',
-        link: 'https://www.linkedin.com/in/jos%C3%A9-sales-a58809135/',
+        link: 'https://www.linkedin.com/in/jose-sales-developer/',
         icon: LinkedinIcon,
     },
     {
