@@ -1,7 +1,7 @@
-import EmailIcon from '../assets/email.svg';
-import LinkedinIcon from '../assets/linkedin.svg';
-import GitHubIcon from '../assets/github.svg';
-import ResumeIcon from '../assets/resume.svg';
+import EmailIcon from "../assets/email.svg";
+import LinkedinIcon from "../assets/linkedin.svg";
+import GitHubIcon from "../assets/github.svg";
+import ResumeIcon from "../assets/resume.svg";
 
 export const contact = [
     {
