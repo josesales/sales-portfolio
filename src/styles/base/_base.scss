@@ -32,6 +32,8 @@ body {
   line-height: 1.7;
   color: $color-white-1;
   background-color: $color-black-1;
+  position: relative;
+  z-index: auto;
 }
 
 ::selection {

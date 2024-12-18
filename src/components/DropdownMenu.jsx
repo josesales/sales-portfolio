@@ -21,8 +21,8 @@ const DropdownMenu = ({ name = "", items = [] }) => {
     };
   }, []);
 
-  const MenuItemsUi = items.map((item, index) => (
-    <li key={index} className="dropdown-menu__item">
+  const MenuItemsUi = items.map((item) => (
+    <li key={item.id} className="dropdown-menu__item">
       <a
         rel="noreferrer"
         target="_blank"
@@ -40,26 +40,25 @@ const DropdownMenu = ({ name = "", items = [] }) => {
 
   return (
     <div
+      onClick={toggleDropdown}
       onMouseLeave={() => setIsOpen(false)}
       className={isOpen ? "dropdown-menu-open" : "dropdown-menu"}
     >
-      <button onClick={toggleDropdown} className="text-button">
-        <div
-          style={{
-            display: "flex",
-            alignItems: "center",
-            gap: "2rem",
-            fontSize: "3rem",
-          }}
-        >
-          {name}
-          {isOpen ? (
-            <ArrowUpIcon className="dropdown-menu__img" />
-          ) : (
-            <ArrowDownIcon className="dropdown-menu__img" />
-          )}
-        </div>
-      </button>
+      <div
+        style={{
+          display: "flex",
+          alignItems: "center",
+          gap: "2rem",
+          fontSize: "3rem",
+        }}
+      >
+        {name}
+        {isOpen ? (
+          <ArrowUpIcon className="dropdown-menu__img" />
+        ) : (
+          <ArrowDownIcon className="dropdown-menu__img" />
+        )}
+      </div>
       {isOpen && (
         <>
           <div className="divider" />

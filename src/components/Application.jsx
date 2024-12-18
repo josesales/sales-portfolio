@@ -5,15 +5,15 @@ const Application = ({ application }) => {
   const [imageSrc, setImageSrc] = useState("");
   const { width } = useResize();
   const DescriptionUi = application.description.map((text, index) => (
-    <li key={index}>{text}</li>
+    <li key={application.id + index}>{text}</li>
   ));
 
   const StackUi = application.stack.map((text, index) => (
-    <li key={index}>{text}</li>
+    <li key={application.id + index}>{text}</li>
   ));
 
   const FeaturesUi = application.features.map((text, index) => (
-    <li key={index}>{text}</li>
+    <li key={application.id + index}>{text}</li>
   ));
 
   useEffect(() => {

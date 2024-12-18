@@ -62,8 +62,8 @@
     position: absolute;
     top: -8px;
     left: 0;
-    background-color: $color-primary-dark;
     gap: 1rem;
+    @include gradient-primary;
   }
 
   &__item {

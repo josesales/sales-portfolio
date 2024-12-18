@@ -58,12 +58,6 @@
       left: 0;
     }
 
-    // &::before {
-    //   top: -0.8rem;
-    // }
-    // &::after {
-    //   top: 0.8rem;
-    // }
     &::before {
       content: "";
       top: calc(-0.8rem); // Adjusted distance for top line
@@ -208,12 +202,6 @@
       height: 1.5px;
     }
 
-    // &::before {
-    //   top: -0.65rem;
-    // }
-    // &::after {
-    //   top: 0.6rem;
-    // }
     &::before {
       top: calc(-0.5rem); // Adjusted top value for the shrunk state
     }

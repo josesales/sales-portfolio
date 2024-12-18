@@ -10,8 +10,8 @@ const Navigation = ({ isShrunk }) => {
     setIsNavigationOn(!isNavigationOn);
   };
 
-  const NavigationItemsUi = navigationItems.map((item, index) => (
-    <li key={index} className={`${className}__item`}>
+  const NavigationItemsUi = navigationItems.map((item) => (
+    <li key={item.id} className={`${className}__item`}>
       <a
         href={item.link}
         onClick={onNavigationClick}

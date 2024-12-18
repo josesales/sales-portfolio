@@ -21,6 +21,7 @@ import AwesomeMoviesLogo from "../assets/awesome-movies-logo.png";
 
 export const applicationItems = [
   {
+    id: "application-id-1",
     name: "Food Helper",
     link: "https://foodhelper.net",
     gitHub: "https://github.com/josesales/food-helper",
@@ -58,6 +59,7 @@ export const applicationItems = [
     ],
   },
   {
+    id: "application-id-2",
     name: "Outdoors King",
     link: "https://outdoorsking.net",
     gitHub: "https://github.com/josesales/outdoors-king",
@@ -93,6 +95,7 @@ export const applicationItems = [
     ],
   },
   {
+    id: "application-id-3",
     name: "Awesome Movies",
     link: "https://awesome-movies.co",
     gitHub: "https://github.com/josesales/awesome-movies",
@@ -118,6 +121,7 @@ export const applicationItems = [
     ],
   },
   {
+    id: "application-id-4",
     name: "Easy Chat",
     link: "https://easychat.chat/",
     gitHub: "https://github.com/josesales/easy-chat",
