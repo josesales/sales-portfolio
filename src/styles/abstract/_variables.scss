@@ -1,16 +1,15 @@
 //Color
-$color-primary:#03DAC5;
+$color-primary: #03dac5;
 $color-primary-light: #2cffea;
-$color-primary-dark: #0e9b8d;
+$color-primary-dark: #127168;
 
 $color-secondary: #298deb;
 $color-secondary-light: #44a5ff;
 $color-secondary-dark: #226db3;
 
-$color-black-1: #282c34;
-// $color-black-2: rgba(54, 59, 66, 0.5);
+$color-black-1: #181717;
 $color-black-2: #363b42;
-$color-black-3: #363b42;
+$color-black-3: #1c2128;
 $color-white-1: #fff;
 
 $color-grey-light-1: #eee;
@@ -33,5 +32,4 @@ $font-size-big-phone: 2rem;
 $font-size-big-mini-phone: 4rem;
 
 //Shadow
-$shadow-dark: 0 2rem 6rem rgba(0, 0, 0, .3);
-
+$shadow-dark: 0 2rem 6rem rgba(0, 0, 0, 0.3);

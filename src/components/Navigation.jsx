@@ -1,33 +1,51 @@
-import React, { useState } from 'react';
-import { navigationItems } from '../data/navigation';
+import React, { useState } from "react";
+import { navigationItems } from "../data/navigation";
 
-const Navigation = () => {
+const Navigation = ({ isShrunk }) => {
+  const [isNavigationOn, setIsNavigationOn] = useState(false);
+  const className =
+    isShrunk && !isNavigationOn ? "navigation-shrunk" : "navigation";
 
-    const [isNavigationOn, setIsNavigationOn] = useState(false);
+  const onNavigationClick = () => {
+    setIsNavigationOn(!isNavigationOn);
+  };
 
-    const onNavigationClick = () => {
-        setIsNavigationOn(!isNavigationOn);
-    }
+  const NavigationItemsUi = navigationItems.map((item, index) => (
+    <li key={index} className={`${className}__item`}>
+      <a
+        href={item.link}
+        onClick={onNavigationClick}
+        className={`${className}__link`}
+      >
+        {item.name}
+      </a>
+    </li>
+  ));
 
-    const NavigationItemsUi = navigationItems.map((item, index) => <li key={index} className="navigation__item">
-        <a href={item.link} onClick={onNavigationClick} className="navigation__link">{item.name}</a></li>);
+  return (
+    <div className={className}>
+      <input
+        type="checkbox"
+        id="nav-toggle"
+        checked={isNavigationOn}
+        readOnly={true}
+        className={`${className}__checkbox`}
+      />
 
-    return (
-        <div className="navigation">
-            <input type="checkbox" id="nav-toggle" checked={isNavigationOn} readOnly={true} className="navigation__checkbox" />
+      <label
+        htmlFor="nav-toggle"
+        onClick={onNavigationClick}
+        className={`${className}__button`}
+      >
+        <span className={`${className}__icon`}></span>
+      </label>
 
-            <label htmlFor="nav-toggle" onClick={onNavigationClick} className="navigation__button">
-                <span className="navigation__icon"></span>
-            </label>
+      <div className={`${className}__background`}></div>
 
-            <div className="navigation__background"></div>
-
-            <nav className="navigation__nav">
-                <ul className="navigation__list">
-                    {NavigationItemsUi}
-                </ul>
-            </nav>
-        </div>
-    )
-}
+      <nav className={`${className}__nav`}>
+        <ul className={`${className}__list`}>{NavigationItemsUi}</ul>
+      </nav>
+    </div>
+  );
+};
 export default Navigation;

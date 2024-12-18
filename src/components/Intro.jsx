@@ -9,8 +9,8 @@ const Intro = () => {
       <StackLoop array={intro} />
 
       <h1 className="section-title heading-primary-animation">
-        <span>Full Stack</span>
-        <span> Developer</span>
+        <span>Software</span>
+        <span> Engineer</span>
       </h1>
 
       <div className="intro__description section-margin-2 secondary-background">

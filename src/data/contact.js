@@ -10,14 +10,14 @@ export const contact = [
     icon: EmailIcon,
   },
   {
-    name: "GitHub",
-    link: "https://github.com/josesales",
-    icon: GitHubIcon,
-  },
-  {
     name: "LinkedIn",
     link: "https://www.linkedin.com/in/jose-sales-developer/",
     icon: LinkedinIcon,
+  },
+  {
+    name: "GitHub",
+    link: "https://github.com/josesales",
+    icon: GitHubIcon,
   },
   {
     name: "Resume",

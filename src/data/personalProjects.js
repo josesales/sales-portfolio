@@ -1,7 +1,19 @@
-import FoodHelperImg from "../assets/food-helper.jpg";
-import OutdoorsKingImg from "../assets/outdoors-king.jpg";
-import AwesomeMoviesImg from "../assets/awesome-movies.jpg";
-import EasyChatImg from "../assets/easy-chat.jpg";
+import FoodHelperPhoneImg from "../assets/food-helper-phone.png";
+import FoodHelperTabPortImg from "../assets/food-helper-tab-port.png";
+import FoodHelperTabLandImg from "../assets/food-helper-tab-land.png";
+import FoodHelperRegularImg from "../assets/food-helper-regular.png";
+import OutdoorsKingPhoneImg from "../assets/outdoors-king-phone.png";
+import OutdoorsKingTabPortImg from "../assets/outdoors-king-tab-port.png";
+import OutdoorsKingTabLandImg from "../assets/outdoors-king-tab-land.png";
+import OutdoorsKingRegularImg from "../assets/outdoors-king-regular.png";
+import AwesomeMoviesPhoneImg from "../assets/awesome-movies-phone.png";
+import AwesomeMoviesTabPortImg from "../assets/awesome-movies-tab-port.png";
+import AwesomeMoviesTabLandImg from "../assets/awesome-movies-tab-land.png";
+import AwesomeMoviesRegularImg from "../assets/awesome-movies-regular.png";
+import EasyChatPhoneImg from "../assets/easy-chat-phone.png";
+import EasyChatTabPortImg from "../assets/easy-chat-tab-port.png";
+import EasyChatTabLandImg from "../assets/easy-chat-tab-land.png";
+import EasyChatRegularImg from "../assets/easy-chat-regular.png";
 import FoodHelperLogo from "../assets/food-helper-logo.png";
 import OutdoorsKingLogo from "../assets/outdoors-king-logo.png";
 import EasyChatLogo from "../assets/easy-chat-logo.png";
@@ -13,7 +25,11 @@ export const applicationItems = [
     link: "https://foodhelper.net",
     gitHub: "https://github.com/josesales/food-helper",
     logo: FoodHelperLogo,
-    img: FoodHelperImg,
+    imgPhone: FoodHelperPhoneImg,
+    imgTabPort: FoodHelperTabPortImg,
+    imgTabLand: FoodHelperTabLandImg,
+    imgRegular: FoodHelperRegularImg,
+    imgBasePath: "../assets/easy-chat-",
 
     description: [
       "Are you hungry at home and have no idea what to prepare but have some ingredients?",
@@ -45,7 +61,10 @@ export const applicationItems = [
     name: "Outdoors King",
     link: "https://outdoorsking.net",
     gitHub: "https://github.com/josesales/outdoors-king",
-    img: OutdoorsKingImg,
+    imgPhone: OutdoorsKingPhoneImg,
+    imgTabPort: OutdoorsKingTabPortImg,
+    imgTabLand: OutdoorsKingTabLandImg,
+    imgRegular: OutdoorsKingRegularImg,
     logo: OutdoorsKingLogo,
 
     description: [
@@ -77,8 +96,12 @@ export const applicationItems = [
     name: "Awesome Movies",
     link: "https://awesome-movies.co",
     gitHub: "https://github.com/josesales/awesome-movies",
-    img: AwesomeMoviesImg,
+    imgPhone: AwesomeMoviesPhoneImg,
+    imgTabPort: AwesomeMoviesTabPortImg,
+    imgTabLand: AwesomeMoviesTabLandImg,
+    imgRegular: AwesomeMoviesRegularImg,
     logo: AwesomeMoviesLogo,
+    isDarkTheme: true,
 
     description: [
       "Frontend application where you can find awesome movies. You can add movies to your watch list and watched list.",
@@ -98,7 +121,10 @@ export const applicationItems = [
     name: "Easy Chat",
     link: "https://easychat.chat/",
     gitHub: "https://github.com/josesales/easy-chat",
-    img: EasyChatImg,
+    imgPhone: EasyChatPhoneImg,
+    imgTabPort: EasyChatTabPortImg,
+    imgTabLand: EasyChatTabLandImg,
+    imgRegular: EasyChatRegularImg,
     logo: EasyChatLogo,
 
     description: [

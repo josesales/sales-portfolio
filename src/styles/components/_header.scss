@@ -1,15 +1,22 @@
 .header {
-    position: fixed;
-    top: 0;
-    left: 0;
-    z-index: 90;
-    width: 100%;
-    height: 11rem;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 90;
+  width: 100%;
+  height: 8rem;
 
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: $color-black-3;
-    border-bottom: 1px solid rgba($color-grey-light-2, 0.5);
-    @include animation-show-up;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: $color-black-3;
+
+  border-bottom: 1px solid rgba($color-grey-light-2, 0.5);
+  transition: height 0.15s ease-in-out, transform 0.15s ease-in-out;
+  transform-origin: top;
+  @include animation-show-up;
+
+  &.header--shrunk {
+    height: 5rem;
+  }
 }
