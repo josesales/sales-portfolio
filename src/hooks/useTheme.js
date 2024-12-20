@@ -5,12 +5,24 @@ const storageName = "sales-portfolio-storage-theme";
 // Light and Dark theme settings
 export const useTheme = () => {
   const [theme, setTheme] = useState("dark");
+
   useEffect(() => {
     const savedTheme = localStorage.getItem(storageName);
-    if (savedTheme === "light") {
-      document.body.classList.add("light");
+
+    if (savedTheme) {
+      document.body.classList.add(savedTheme);
       setTheme(savedTheme);
+      return;
     }
+
+    // if no saved theme, check the browser's preferred theme
+    const preferredTheme = window.matchMedia("(prefers-color-scheme: light)")
+      .matches
+      ? "light"
+      : "dark";
+
+    document.body.classList.add(preferredTheme);
+    setTheme(preferredTheme);
   }, []);
 
   const toggleTheme = () => {
