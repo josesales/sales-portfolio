@@ -6,6 +6,13 @@
   font-size: 1.3rem;
   border-radius: 2rem;
   overflow: hidden;
+  border: 1px solid $color-container;
+  box-shadow: $shadow-dark;
+
+  &:hover,
+  &:focus {
+    border: none !important;
+  }
 
   &__img {
     border-radius: 2rem;
@@ -98,6 +105,16 @@
     justify-content: space-around;
     align-items: center;
     margin-top: auto;
+  }
+}
+
+.light {
+  .application-container {
+    border: 1px solid $light-color-container;
+    box-shadow: $shadow-light;
+  }
+  .application {
+    @include light-gradient-primary;
   }
 }
 

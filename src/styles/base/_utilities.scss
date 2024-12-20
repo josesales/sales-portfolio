@@ -40,10 +40,16 @@
 }
 
 .secondary-background {
-  //   background-color: $color-black-2;
-  background-color: $color-black-3;
+  background-color: $color-container;
   padding: 2rem;
   border-radius: 2rem;
+}
+
+.light {
+  .secondary-background {
+    background-color: $light-color-container;
+    box-shadow: $shadow-light;
+  }
 }
 
 .section-margin-1 {
@@ -63,4 +69,7 @@
   height: 1px;
   background-color: $color-white-1;
   margin: 1rem 2rem;
+  @include respond(phone) {
+    margin: 0.8rem 2rem;
+  }
 }

@@ -1,9 +1,9 @@
-import TcsImg from "../assets/tcs.jpg";
-import HealthSolutionsImg from "../assets/health-solutions.jpg";
-import TrixlogImg from "../assets/trixlog.jpg";
-import DyadImg from "../assets/dyad.jpg";
-import IndraImg from "../assets/indra.jpg";
-import PwcImg from "../assets/pwc.jpg";
+import TcsImg from "../assets/tcs.png";
+import HealthSolutionsImg from "../assets/health-solutions.png";
+import TrixlogImg from "../assets/trixlog.png";
+import DyadImg from "../assets/dyad.png";
+import IndraImg from "../assets/indra.png";
+import PwcImg from "../assets/pwc.png";
 
 export const companies1 = [
   {

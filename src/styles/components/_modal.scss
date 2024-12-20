@@ -22,7 +22,7 @@
   max-height: 100%;
   overflow: auto;
   font-size: $font-size-default;
-  @include gradient-primary;
+  background-color: $color-container;
 
   .modal-header {
     width: 100%;
@@ -32,10 +32,42 @@
     align-items: center;
     font-size: $font-size-default;
 
+    .modal-icon-container {
+      background-color: $color-white-1;
+      width: 12rem;
+      height: 5rem;
+      border-radius: 2rem;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      cursor: default;
+
+      .modal-icon-img {
+        width: 10rem;
+      }
+    }
+
     &__close-img {
       width: 2rem;
       height: 2rem;
       color: $color-white-1;
+    }
+  }
+}
+
+.light {
+  .modal-content {
+    background-color: $light-color-container;
+
+    .modal-header {
+      .modal-icon-container {
+        background-color: $color-white-1;
+        box-shadow: $shadow-light;
+      }
+
+      &__close-img {
+        color: $color-black-1;
+      }
     }
   }
 }

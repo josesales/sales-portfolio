@@ -7,9 +7,9 @@
   height: 8rem;
 
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
-  background-color: $color-black-3;
+  background-color: $color-container;
 
   border-bottom: 1px solid rgba($color-grey-light-2, 0.5);
   transition: height 0.15s ease-in-out, transform 0.15s ease-in-out;
@@ -18,5 +18,12 @@
 
   &.header--shrunk {
     height: 5rem;
+  }
+}
+
+.light {
+  .header {
+    background-color: $light-color-container;
+    box-shadow: $shadow-light;
   }
 }

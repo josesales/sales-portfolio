@@ -1,7 +1,26 @@
 .company-item {
+  background-color: $color-white-1;
+  width: 18rem;
+  height: 10rem;
+  border-radius: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  &:hover,
+  &:focus {
+    transform: scale(1.1);
+  }
+
   &__img {
-    cursor: pointer;
-    width: 18rem;
+    width: 15rem;
     border-radius: 1.5rem;
+  }
+}
+
+.light {
+  .company-item {
+    background-color: $light-color-container;
+    box-shadow: $shadow-light;
   }
 }

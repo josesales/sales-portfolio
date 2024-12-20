@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 
 // Get the current dimensions of the screen
-const useResize = () => {
+export const useResize = () => {
   const [windowSize, setWindowSize] = useState({
     width: window.innerWidth,
     height: window.innerHeight,
@@ -24,5 +24,3 @@ const useResize = () => {
 
   return windowSize;
 };
-
-export default useResize;

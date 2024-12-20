@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import Navigation from "./Navigation";
 import DropdownMenu from "./DropdownMenu";
 import { contact } from "../data/contact";
+import ToggleTheme from "./ToggleTheme";
 
 const Header = () => {
   const [isScrolling, setIsScrolling] = useState(false);
@@ -38,6 +39,7 @@ const Header = () => {
   return (
     <header className={`header ${isShrunk ? "header--shrunk" : ""}`}>
       <Navigation isShrunk={isShrunk} />
+      <ToggleTheme />
       <DropdownMenu name="Get in Touch" items={contact} />
     </header>
   );

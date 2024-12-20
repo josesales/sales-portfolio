@@ -5,7 +5,7 @@ const Company = ({ company }) => {
   const [isModalOpen, setIsModalOpen] = useState(false);
   return (
     <>
-      <li onClick={() => setIsModalOpen(true)}>
+      <li onClick={() => setIsModalOpen(true)} className="company-item">
         <img src={company.img} alt="company" className="company-item__img" />
       </li>
       <CompanyModal

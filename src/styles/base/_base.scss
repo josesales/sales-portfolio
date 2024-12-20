@@ -54,3 +54,27 @@ body {
 ::placeholder {
   color: $color-grey-light-2;
 }
+
+.light {
+  color: $color-black-1;
+  background-color: $color-white-1;
+
+  ::selection {
+    background-color: $light-color-primary-dark;
+    // color: $color-white-1;
+  }
+
+  ::-webkit-input-placeholder {
+    /* Edge */
+    color: $color-grey-light-2;
+  }
+
+  :-ms-input-placeholder {
+    /* Internet Explorer 10-11 */
+    color: $color-grey-light-2;
+  }
+
+  ::placeholder {
+    color: $color-grey-light-2;
+  }
+}

@@ -44,14 +44,7 @@ const DropdownMenu = ({ name = "", items = [] }) => {
       onMouseLeave={() => setIsOpen(false)}
       className={isOpen ? "dropdown-menu-open" : "dropdown-menu"}
     >
-      <div
-        style={{
-          display: "flex",
-          alignItems: "center",
-          gap: "2rem",
-          fontSize: "3rem",
-        }}
-      >
+      <div className="dropdown-menu__text">
         {name}
         {isOpen ? (
           <ArrowUpIcon className="dropdown-menu__img" />
@@ -62,7 +55,10 @@ const DropdownMenu = ({ name = "", items = [] }) => {
       {isOpen && (
         <>
           <div className="divider" />
-          <div style={{ position: "relative", width: "28rem" }}>
+          <div
+            onClick={(e) => e.stopPropagation()}
+            className="dropdown-menu__list-container"
+          >
             <ul className="dropdown-menu__list">{MenuItemsUi}</ul>
           </div>
         </>

@@ -1,0 +1,22 @@
+.toggle-theme {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5rem;
+  width: 20rem;
+  margin-left: auto;
+
+  @include respond(phone) {
+    gap: 3rem;
+    width: 15rem;
+  }
+
+  &__img {
+    width: 2.5rem;
+    height: 2.5rem;
+    @include respond(phone) {
+      width: 2rem;
+      height: 2rem;
+    }
+  }
+}

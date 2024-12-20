@@ -42,9 +42,8 @@ export const applicationItems = [
       "React",
       "Redux",
       "SASS",
-      "Node",
+      "Node.js",
       "Express",
-      "Mongoose",
       "MongoDB",
     ],
 
@@ -79,7 +78,7 @@ export const applicationItems = [
       "Redux",
       "Tailwind CSS",
       "GraphQL",
-      "Node",
+      "Node.js",
       "Apollo Server",
       "Prisma",
       "PostgreSQL",
@@ -140,7 +139,7 @@ export const applicationItems = [
       "React",
       "Redux",
       "Styled Components",
-      "Node",
+      "Node.js",
       "Socket.io",
     ],
 

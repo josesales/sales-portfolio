@@ -9,8 +9,21 @@
   &__img {
     width: 20rem;
     height: 20rem;
-    border: 2px solid rgba($color-grey-light-2, 0.5);
+    border: 2px solid $color-grey-light-2;
     border-radius: 50%;
     background-image: radial-gradient($color-grey-dark-2, $color-primary-dark);
+  }
+}
+
+.light {
+  .profile {
+    &__img {
+      border: 2px solid $color-black-2;
+      background-image: radial-gradient(
+        $color-grey-light-2,
+        $light-color-primary-dark
+      );
+      box-shadow: $shadow-light;
+    }
   }
 }

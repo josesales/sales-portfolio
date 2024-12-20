@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import useResize from "../hooks/useResize";
+import { useResize } from "../hooks/useResize";
 
 const Application = ({ application }) => {
   const [imageSrc, setImageSrc] = useState("");

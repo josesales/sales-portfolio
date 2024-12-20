@@ -1,3 +1,7 @@
+//Theme
+@import "theme/dark";
+@import "theme/light";
+
 //Abstract
 @import "abstract/mixins";
 @import "abstract/variables";
@@ -26,3 +30,5 @@
 @import "components/stack";
 @import "components/stack-item";
 @import "components/stack-loop";
+@import "components/toggle-switch";
+@import "components/toggle-theme";
