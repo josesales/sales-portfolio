@@ -109,7 +109,7 @@ export const applicationItems = [
       "Frontend application where you can find awesome movies. You can add movies to your watch list and watched list.",
     ],
 
-    stack: ["Javascript", "React", "Context API", "SASS"],
+    stack: ["Typescript", "React", "Context API", "SASS"],
 
     features: [
       "Integration with Third Party API",
