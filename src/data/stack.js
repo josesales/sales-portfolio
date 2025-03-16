@@ -75,6 +75,7 @@ export const backend = [
 
 export const others = [
   "Design Patterns",
+  "Agile",
   "Object Orientation Programming",
   "Functional Programming",
   "SQL",

@@ -15,12 +15,13 @@ const Intro = () => {
 
       <div className="intro__description section-margin-2 secondary-background">
         <p>
-          Hi, my name is Sales. I am a passionate developer with a bachelor's
-          degree in Computer Science and an overall experience of 15 years.
+          Hi, I'm Sales, a dedicated Full Stack Developer with 15+ years of
+          professional experience and a Bachelor's Degree in Computer Science.
         </p>
         <p>
-          I've had the privilege of working, as a Full Stack Developer, for many
-          companies and clients from United States, Europe and South America.
+          I've worked on projects for companies and clients in the U.S, Europe,
+          and South America, with extensive experience in remote, distributed
+          teams.
         </p>
       </div>
 
