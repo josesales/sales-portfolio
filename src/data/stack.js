@@ -78,6 +78,7 @@ export const others = [
   "Object Orientation Programming",
   "Functional Programming",
   "SQL",
+  "NoSQL",
   "GraphQL",
   "Rest",
 ];
