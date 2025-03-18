@@ -25,7 +25,7 @@ export const contact = [
   {
     id: "contact-id-4",
     name: "Resume",
-    link: "https://drive.google.com/file/d/1ipcnh3VstzdJzo4m7swtZcmNyFY0Jehd/view?usp=drivesdk",
+    link: "https://drive.google.com/file/d/1faJeSXAGfyukQdX0A-bBzEUd3HeyV_R0/view?usp=drivesdk",
     icon: ResumeIcon,
   },
 ];
