@@ -28,7 +28,7 @@ export const companies1 = [
     name: "Tata Consultancy Services",
     position: "Senior Full Stack Developer",
     jobDescription:
-      "I was working on multiple projects for multiple clients. The main application that I worked on was for a client, that is a big tele-communication company in Europe. I had the privilege of working in a distributed team in which my colleagues were located around the globe. So although I was going to the office we followed a remote approach.",
+      "I was working on multiple applications for various clients, including a leading European telecommunications company. Primarily I worked on a trouble-ticket management application, enhancing functionality and ensuring efficient issue tracking for users.",
     img: TcsImg,
     stack: [
       "Javascript",
